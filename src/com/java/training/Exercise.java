@@ -16,6 +16,8 @@ public class Exercise {
             System.out.println(j+" x "+i+" = "+(j*i));
         }
 
+        System.out.println("Complete");
+
         //
     }
 }
