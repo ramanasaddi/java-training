@@ -1,4 +1,4 @@
-package com.java.training;
+package com.java.training.oops;
 
 public class InheritanceDemo {
     public static void main(String[] args) {

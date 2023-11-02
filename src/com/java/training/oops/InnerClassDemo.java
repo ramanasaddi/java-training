@@ -1,4 +1,4 @@
-package com.java.training;
+package com.java.training.oops;
 
 class OuterClassA {
     int x = 10;

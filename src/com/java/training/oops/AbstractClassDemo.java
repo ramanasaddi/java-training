@@ -1,4 +1,4 @@
-package com.java.training;
+package com.java.training.oops;
 
 interface Car {
     void drive();

@@ -1,4 +1,4 @@
-package com.java.training;
+package com.java.training.basics;
 
 public class Exercise {
     public static void main(String[] args)
