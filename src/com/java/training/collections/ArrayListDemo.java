@@ -1,6 +1,6 @@
 package com.java.training.collections;
 
-import java.util.ArrayList; // import the ArrayList class
+import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListDemo {
@@ -15,14 +15,12 @@ public class ArrayListDemo {
         myNumbers.add(34);
         myNumbers.add(8);
         myNumbers.add(12);
-        // Integer -> class -
-        // int - simple - >
 
         for(int i=0;i<myNumbers.size(); i++) {
             System.out.println(myNumbers.get(i));
         }
 
-        Collections.sort(myNumbers);  // Sort myNumbers
+        Collections.sort(myNumbers);
 
         System.out.println("+++++++++++++++++++++");
         for (Integer i : myNumbers) {
@@ -30,7 +28,7 @@ public class ArrayListDemo {
         }
         System.out.println("+++++++++++++++++++++");
 
-        ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+        ArrayList<String> cars = new ArrayList<String>();
 
         cars.add("Volvo");
         cars.add("BMW");
@@ -41,7 +39,7 @@ public class ArrayListDemo {
         for (int i = 0; i < cars.size(); i++) {
             System.out.println(cars.get(i));
         }
-        Collections.sort(cars);  // Sort cars
+        Collections.sort(cars);
 
         for (String i : cars) {
             System.out.println(i);
